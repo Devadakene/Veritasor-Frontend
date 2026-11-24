@@ -12,6 +12,7 @@ export const ROUTES = {
   forgotPassword: '/forgot-password',
   onboarding: '/onboarding',
   serverError: '/500',
+  motionTokens: '/motion-tokens',
 
   dashboard: '/dashboard',
   attestations: '/attestations',

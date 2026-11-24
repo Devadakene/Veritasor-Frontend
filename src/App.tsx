@@ -21,6 +21,7 @@ import HelpArticle from './pages/HelpArticle'
 import RevenueSources from './pages/RevenueSources'
 import Settings from './pages/Settings'
 import ConsentPreferences from './pages/ConsentPreferences'
+import MotionDemo from './pages/MotionDemo'
 import {
   ConnectSourceWizard,
   SelectSourceProviderStep,
@@ -39,6 +40,7 @@ export const appRoutes: RouteObject[] = [
   { path: ROUTES.forgotPassword, element: <ForgotPassword /> },
   { path: ROUTES.onboarding, element: <OnboardingWizard /> },
   { path: ROUTES.serverError, element: <ServerError /> },
+  { path: ROUTES.motionTokens, element: <MotionDemo /> },
   {
     element: <Layout />,
     children: [
